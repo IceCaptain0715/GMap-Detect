@@ -1,0 +1,22 @@
+{
+  "restaurants": [
+    {
+      "name": "Text 1",
+      "backgroundImageURL": "https://lh5.googleusercontent.com/p/AF1QipPLOazUBC_lD56MNnz2TuK-2id0xSb0paaUFkob=w408-h200-k-no-pi-2.9338646-ya349.5-ro-0-fo100",
+      "location": {
+        "lat": 47.6055498,
+        "lng": -122.3587698,
+        "formattedAddress": "Address 1"
+      }
+    },
+    {
+      "name": "Text 2",
+      "backgroundImageURL": "https://lh5.googleusercontent.com/p/AF1QipMJjC0R8_RvlYlpWOJu32N9NH8nTiEEyVmAo-xo=w408-h272-k-no",
+      "location": {
+        "lat": 46.2938283,
+        "lng": -121.2341923,
+        "formattedAddress": "Address 2"
+      }
+    }    
+  ]
+}
