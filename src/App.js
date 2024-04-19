@@ -87,6 +87,7 @@ class App extends Component {
             let point = { center: { lat: latitude, lng: longitude }, zoom: 12 };
             this.props.setBoundry(point);
             parsedCsvData = parsedCsvData.filter(e => GeoUtil.calculateDistance(latitude, longitude, e.location.lat, e.location.lng) <= 10);
+            parsedCsvData.push({name:"My Pos", location: {lat: latitude, lng: longitude, formattedAddress: "My Location"}});
             parsedCsvData.forEach((place, index) => {
               place.key = index;
             });
